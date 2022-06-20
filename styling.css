@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    background: #222;
+    background-image: url(https://picsum.photos/1600/900/?blur);
+}
+
+.card {
+    background: #000000d0;
+    color: white;
+    padding: 3em;
+    border-radius: 40px;
+    width: 100%;
+    max-width: 420px;
+    margin: 1em;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
