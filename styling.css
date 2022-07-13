@@ -47,3 +47,7 @@ button:hover {
 h1.temp {
     margin: 0;
 }
+
+.description {
+    text-transform: capitalize;
+}
