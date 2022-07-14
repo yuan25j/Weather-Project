@@ -1,10 +1,11 @@
 let weather = {
-    "apiKey": "4aab44fe687ae582aa6aecce9392c370",
+    "apiKey": "your api key",
     getweather: function (location) { 
         fetch(
             "https://api.openweathermap.org/data/2.5/weather?q=" 
             + location 
-            + "&units=imperial&appid=4aab44fe687ae582aa6aecce9392c370")
+            + "&units=imperial&"
+            + apikey)
         .then((response) => response.json())
         .then((data) => this.displayWeather(data));
     },
